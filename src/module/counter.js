@@ -1,8 +1,8 @@
 const INCRESE = 'counter/INCRESE';
 const DECRESE = 'counter/DECRESE';
 
-export const increse = () => ({ type: INCRESE });
-export const decrese = () => ({ type: DECRESE });
+export const increase = () => ({ type: INCRESE });
+export const decrease = () => ({ type: DECRESE });
 
 const initialState = {
   number: 0,
